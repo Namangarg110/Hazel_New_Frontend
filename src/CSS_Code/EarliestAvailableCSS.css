@@ -1,0 +1,426 @@
+/* Earliest Appointment TopParent Div */
+
+.EarliestAppointmentTopParentDiv{
+    background-color: #f1f5f9;
+    height: auto;
+    width: 100vw;
+    scrollbar-width: none;
+}
+
+.EarliestAppointmentTopParentDiv::-webkit-scrollbar{
+    display: none;
+}
+
+.Icon-TwoText-UpAndDown{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.Earliest-IntakeAppointment-Text{
+    display: flex;
+    line-height: 0;
+    flex-direction: column;
+}
+
+
+.book-appointment-Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8%;
+    width: max-content;
+    background-color: #8a4af3;
+    color: whitesmoke;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 22px;
+}
+
+
+/* Top Hading Nav Bar */
+
+.LeftArrowIcon-ScheduleTexts{
+    gap: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: white;
+}
+
+.LeftArrowIcon{
+    width: 65px;
+    height: 65px;
+    border: 1px solid #dadada;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Ledft Side 1st Box */
+
+.ThreeContentBoxesParentDiv{
+    display: flex;
+}
+
+.avatar {
+    width: 60px;           
+    height: 60px;
+    background-color: #d5caff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;       
+    font-weight: bold;
+    color: #5a3ec8;       
+}
+
+.LeftSide-ContentBox{
+    padding: 1%;
+    width: 32%;
+    background-color: white;
+    /* margin-top: 2%; */
+    /* margin-left: 2%; */
+    border-radius: 10px;
+}
+
+.UserDetail-Image-Text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Image-Name-Gender-Years{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Name-Gender-year{
+    line-height: 0;
+}
+
+.ChangeBtn{
+    font-size: 14px;           
+    color: #333;                
+    background-color: #fff;     
+    border: 1px solid #dcdcdc;  
+    padding: 9px 18px;          
+    border-radius: 8px;         
+    cursor: pointer;            
+    transition: background-color 0.2s ease, color 0.2s ease; 
+}
+
+.ChangeBtn:hover {
+    background-color: #f0f0f0; 
+    color: #333;                
+}
+
+.SingleLine{
+    padding-top: 5%;
+    border-bottom: 2px solid #dadada;
+}
+
+.SingleLineTwo{
+    padding-top: 2%;
+    border-bottom: 2px solid #dadada;
+}
+
+.LightColor-DarkColor-Content{
+    line-height: 0.5;
+}
+
+.LightColor{
+    color: grey;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.DarkColorBlack{
+    color: black;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.ThreeBTnContentBoxes{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding: 1%;
+    gap: 15px;
+}
+
+
+/* Middle Box Content CSS */
+
+.MiddleBox-Earliest-Avaiblity{
+    height: 380px;
+    width: 32%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5%;
+}
+
+.MiddleBox-Perpule-Box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Douglas-Therapist-Text{
+    line-height: 0;
+}
+
+.ManPhoto{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.Image-ContentText{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Text-toText{
+    line-height: 0.5;
+}
+
+.BestMatch-Icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* border: 1px solid black; */
+    width: max-content;
+    padding: 0.5%;
+    border-radius: 10px;
+    height: 30px;
+    background-color:#dcfce7;
+    margin-bottom: 1.5%;
+}
+
+.BestMatch-Icon p {
+    color: #15803d;
+}
+
+.MiddleBox-Perpule-Box{
+    /* border: 1px solid black; */
+    background-color: #c4aaee;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.OneNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #8a4af3;
+    color: white;
+}
+
+.OneNumber p {
+    font-size: 18px;
+}
+
+.WithOut-backgroundColor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.Two-Icons{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.Icons{
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.text{
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+
+
+
+/* Third box Right Side */
+
+.ThirdBoxRightSide{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 530px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Date Picker */
+.date-input {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  color: #333;
+  width: 30%;
+}
+
+/* Input Hover and Focus Styles */
+.date-input:hover {
+  border-color: #888;
+}
+
+.date-input:focus {
+  box-shadow: 0 0 8px rgba(90, 103, 216, 0.3);
+}
+
+.SelectAppointment-InputTag{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.SelectAppointment-InputTag h1 {
+    font-size: 23.5px;
+}
+
+.WithOutBackground-RightSideBox{
+    padding: 1.5%;
+}
+
+.text-RightSideBox{
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.Therapist-Text{
+    color: grey;
+}
+
+/* Container for full width */
+.time-display-container {
+  width: 100%;
+  max-width: 400px; /* Set a max width for larger screens */
+  margin: 0 auto;
+}
+
+.Wednesday-October-Date {
+  margin-left: 3%;
+}
+
+.Wednesday-October-Date h2 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  margin: 15px 0;
+}
+
+.time-display {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.time-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.time-option.selected {
+  background-color: #e8e2fc; /* Light purple background */
+}
+
+.time-icon {
+  background-color: #e2d1ff; /* Light purple circle background */
+  color: #5c4bcf; /* Purple icon color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.time-text {
+  color: #333;
+  font-size: 16px;
+  flex-grow: 1;
+}
+
+.radio-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #5c4bcf; /* Border color */
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-button.selected::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5c4bcf; /* Inner dot color */
+}
+
+.date-header {
+  color: #000;
+  font-weight: 500; /* Match the weight with Wednesday's text */
+  font-size: 16px; /* Same size as Wednesday's header */
+  margin: 15px 3%;
+}
+
+.PreviewInCalendarWithShareIcon{
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.preview-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #dadada;
+    margin-left: 5%;
+}

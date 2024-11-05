@@ -1,0 +1,145 @@
+.ScheduleText-MultipleText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.Multiple-Search-Text{
+    color: #6554e3;
+    font-size: larger;
+}
+
+.PlusIcon-MultipleText{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Multiple-Search-Text:hover{
+    color: seagreen;
+    cursor: pointer;
+}
+
+
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #7a7a7a;
+    font-size: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 15px 20px 15px 50px; 
+    border-radius: 30px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    background-color: #f5f8fb;
+    color: #3d3d3d;
+    font-size: 18px;
+}
+
+.Student-Tile-Parent-Div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.student-tile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.student-avatar {
+    background-color: #e6e2fd;
+    color: #6554e3;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+/* 
+.student-info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.student-info h3 {
+    /* width: 50%; */
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.student-info p {
+    margin: 0;
+    color: #666;
+}
+
+
+
+.placeholder-container {
+    text-align: center;
+    margin-top: 40px;
+    color: #7a7a7a;
+}
+
+.placeholder-icon {
+    background-color: #f5f8fb;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.placeholder-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-top: 20px;
+}
+
+.placeholder-subtext {
+    font-size: 16px;
+    color: #8b8b8b;
+    margin-top: 10px;
+}
+
+.add-student-link {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #6554e3;
+    text-decoration: none;
+}
+
+.add-student-link:hover {
+    color: seagreen;
+}
