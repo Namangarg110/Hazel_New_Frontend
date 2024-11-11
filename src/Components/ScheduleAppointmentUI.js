@@ -8,7 +8,7 @@ import { useState } from "react";
 function ScheduleAppointmentUI(){
 
     const [selectedOptions, setSelectedOptions] = useState({
-        Intake: false,
+        Intake: true,
         FollowUp: false,
     });
 

@@ -1,10 +1,10 @@
-.ScheduleAppointmentTopParentDiv{
-    background-color: #f1f5f9;
-    height: auto;
-    width: 100vw;
+.ScheduleAppointmentTopParentDiv {
+  background-color: #f1f5f9;
+  height: auto;
+  width: 100vw;
 }
 
-.LeftArrowIcon-ScheduleText{
+.LeftArrowIcon-ScheduleText {
   gap: 60px;
   display: flex;
   align-items: center;
@@ -12,113 +12,109 @@
   background-color: white;
 }
 
-.LeftLogo-Text{
+.LeftLogo-Text {
   display: flex;
   align-items: center;
 }
 
-.LeftArrowIcon{
-    width: 65px;
-    height: 65px;
-    border: 1px solid #dadada;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.LeftArrowIcon {
+  width: 65px;
+  height: 65px;
+  border: 1px solid #dadada;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-
 
 /* left Side Box 1st Box */
 
-.ThreeContentBoxesParentDiv{
-    display: flex;
+.ThreeContentBoxesParentDiv {
+  display: flex;
 }
 
 .avatar {
-    width: 60px;           /* Size of the circle */
-    height: 60px;
-    background-color: #d5caff; /* Light purple background */
-    border-radius: 50%;    /* Makes it circular */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;       /* Font size for initials */
-    font-weight: bold;
-    color: #5a3ec8;        /* Text color for initials */
+  width: 60px; /* Size of the circle */
+  height: 60px;
+  background-color: #d5caff; /* Light purple background */
+  border-radius: 50%; /* Makes it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px; /* Font size for initials */
+  font-weight: bold;
+  color: #5a3ec8; /* Text color for initials */
 }
 
-.LeftSide-ContentBox{
-    padding: 1%;
-    width: 32%;
-    background-color: white;
-    margin-top: 2%;
-    margin-left: 2%;
-    border-radius: 10px;
+.LeftSide-ContentBox {
+  padding: 1%;
+  width: 32%;
+  background-color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+  border-radius: 10px;
 }
 
-.UserDetail-Image-Text{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.UserDetail-Image-Text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.Image-Name-Gender-Years{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.Image-Name-Gender-Years {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.Name-Gender-year{
-    line-height: 0;
+.Name-Gender-year {
+  line-height: 0;
 }
 
-.ChangeBtn{
-    font-size: 14px;           
-    color: #333;                
-    background-color: #fff;     
-    border: 1px solid #dcdcdc;  
-    padding: 9px 18px;          
-    border-radius: 8px;         
-    cursor: pointer;            
-    transition: background-color 0.2s ease, color 0.2s ease; 
+.ChangeBtn {
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  padding: 9px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .ChangeBtn:hover {
-    background-color: #f0f0f0;  /* Slightly darker background on hover */
-    color: #333;                /* Keep text color same or adjust if needed */
+  background-color: #f0f0f0; /* Slightly darker background on hover */
+  color: #333; /* Keep text color same or adjust if needed */
 }
 
-.SingleLine{
-    padding-top: 5%;
-    border-bottom: 2px solid #dadada;
+.SingleLine {
+  padding-top: 5%;
+  border-bottom: 2px solid #dadada;
 }
 
-.SingleLineTwo{
-    padding-top: 2%;
-    border-bottom: 2px solid #dadada;
+.SingleLineTwo {
+  padding-top: 2%;
+  border-bottom: 2px solid #dadada;
 }
 
-.LightColor-DarkColor-Content{
-    line-height: 0.5;
+.LightColor-DarkColor-Content {
+  line-height: 0.5;
 }
 
-.LightColor{
-    color: grey;
-    font-size: larger;
-    font-weight: 400;
+.LightColor {
+  color: grey;
+  font-size: larger;
+  font-weight: 400;
 }
 
-.DarkColorBlack{
-    color: black;
-    font-size: larger;
-    font-weight: 400;
+.DarkColorBlack {
+  color: black;
+  font-size: larger;
+  font-weight: 400;
 }
-
-
 
 /* Middle Box 2nd Box */
-.SecondBoxMiddleBox{
+.SecondBoxMiddleBox {
   padding: 1%;
   width: 32%;
   height: 730px;
@@ -173,7 +169,7 @@
 }
 
 .checkbox-option input[type="checkbox"]:checked + .custom-checkbox::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 4px;
   left: 4px;
@@ -191,65 +187,63 @@
   background-color: #00bfa5;
 }
 
-
 /* Toggle Button  */
 
 /* Container for toggle buttons */
 .toggle-container {
   display: flex;
-  background-color: #f5f7fa; 
-  border-radius: 12px; 
-  padding: 2px; 
+  background-color: #f5f7fa;
+  border-radius: 12px;
+  padding: 2px;
   width: 80%;
-  border: 1px solid #d1d5db; 
+  border: 1px solid #d1d5db;
   margin-top: 2%;
 }
-
 
 /* Default button style */
 .toggle-btn {
   padding: 10px 20px;
   border: none;
   background: transparent;
-  color: #6b7280; 
+  color: #6b7280;
   font-size: 14px;
   cursor: pointer;
-  border-radius: 8px; 
-  transition: background-color 0.3s ease, color 0.3s ease; 
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
   flex: 1;
   width: max-content;
 }
 
 /* Active (selected) button style */
 .toggle-btn.active {
-  background-color: #ffffff; 
-  color: #1f2937; 
+  background-color: #ffffff;
+  color: #1f2937;
   font-weight: 500;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.StartBtn-EarLiest{
-    margin-top: 10%;
-    padding: 4%;
-    width: 100%;
-    background-color:#8a4af3;
-    color: white;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: larger;
-    border-radius: 10px;
-    border-style: none;
+.StartBtn-EarLiest {
+  margin-top: 10%;
+  padding: 4%;
+  width: 100%;
+  background-color: #8a4af3;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  border-radius: 10px;
+  border-style: none;
 }
 
-.StartBtn-EarLiest:hover{
-    background-color: #24ab99;
+.StartBtn-EarLiest:hover {
+  background-color: #24ab99;
 }
 
 /* Date Picker InputTag Date */
 
-.TwoInputTag-DatePicker{
+.TwoInputTag-DatePicker {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -300,7 +294,6 @@
   margin-top: 8px;
 }
 
-
 /* DropDown SelectAndOptions */
 
 /* SelectComponent.css */
@@ -345,27 +338,26 @@ label {
   padding: 10px;
 }
 
-.RadioBtns{
+.RadioBtns {
   height: 30px;
   width: 30px;
 }
 
-.RadioInputTag{
+.RadioInputTag {
   display: flex;
   align-items: center;
   gap: 10px;
   line-height: 2;
 }
 
-.LabelText-RadioBtn{
+.LabelText-RadioBtn {
   font-size: larger;
   font-weight: 300;
 }
 
-
 /* Toggle Button CSS Code */
 
-/* From Uiverse.io by gharsh11032000 */ 
+/* From Uiverse.io by gharsh11032000 */
 /* The switch - the box around the slider */
 .switch {
   font-size: 17px;
@@ -403,12 +395,12 @@ label {
   inset: 0;
   background-color: white;
   border-radius: 50px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .switch input:checked + .slider {
-  background:springgreen;
+  background: springgreen;
 }
 
 .switch input:focus + .slider {
@@ -419,7 +411,7 @@ label {
   transform: translateX(1.6em);
 }
 
-.ToggleBtn-AllAppointmentBookedText{
+.ToggleBtn-AllAppointmentBookedText {
   display: flex;
   align-items: center;
   gap: 20px;

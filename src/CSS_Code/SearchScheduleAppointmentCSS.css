@@ -1,27 +1,27 @@
-.ScheduleText-MultipleText{
+/* Existing styles */
+
+.ScheduleText-MultipleText {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 2%;
 }
 
-.Multiple-Search-Text{
+.Multiple-Search-Text {
     color: #6554e3;
     font-size: larger;
 }
 
-.PlusIcon-MultipleText{
+.PlusIcon-MultipleText {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.Multiple-Search-Text:hover{
+.Multiple-Search-Text:hover {
     color: seagreen;
     cursor: pointer;
 }
-
-
 
 .search-container {
     position: relative;
@@ -50,7 +50,18 @@
     font-size: 18px;
 }
 
-.Student-Tile-Parent-Div{
+/* New style for the clear (cross) icon */
+.clear-icon {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #7a7a7a;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Student-Tile-Parent-Div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,16 +91,8 @@
     justify-content: center;
     margin-right: 10px;
 }
-/* 
-.student-info{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 .student-info h3 {
-    /* width: 50%; */
     margin: 0;
     font-size: 1.1rem;
     color: #333;
@@ -99,8 +102,6 @@
     margin: 0;
     color: #666;
 }
-
-
 
 .placeholder-container {
     text-align: center;
@@ -138,8 +139,11 @@
     font-size: 16px;
     color: #6554e3;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .add-student-link:hover {
     color: seagreen;
+    border-bottom: 1px solid seagreen;
+    cursor: pointer;
 }
