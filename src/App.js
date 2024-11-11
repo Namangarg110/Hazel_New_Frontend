@@ -7,6 +7,7 @@ import CalendarsHanding from './NavBarHadingContent/CalendarsHading';
 import HistoryHading from './NavBarHadingContent/HistoryHading';
 import OptimizationRulesHading from './NavBarHadingContent/OptimizationRulesHading';
 import AddNewStudents from "./Components/AddNewStudents"
+import SaintGeoegeSchool from "./Core/SaintGeoegeSchool"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/historyHading' element={<HistoryHading/>}></Route>
         <Route path='/optimizationRulesHading' element={<OptimizationRulesHading/>}></Route>
         <Route path='/addNewStudents' element={<AddNewStudents/>}></Route>
+        <Route path='/saintGeoegeSchool' element={<SaintGeoegeSchool/>}></Route>
       </Routes>
     </div>
   );

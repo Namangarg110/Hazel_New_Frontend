@@ -3,6 +3,7 @@ import NavBar from '../Core/NavBar';
 import { FaPlusCircle, FaSearch, FaTimes } from 'react-icons/fa';
 import "../CSS_Code/SearchScheduleAppointmentCSS.css";
 import { useNavigate } from "react-router-dom";
+import { FaUsers } from "react-icons/fa";
 import axios from "axios";
 
 function SearchScheduleAppointment() {
@@ -42,6 +43,11 @@ function SearchScheduleAppointment() {
         setShowTiles(false);  // Hide tiles when cross icon is clicked
     };
 
+    // Filter the students based on search text
+    const filteredData = FetchData.filter((student) =>
+        student.Student_Name.toLowerCase().includes(searchText.toLowerCase())
+    );
+
     return (
         <div>
             <NavBar />
@@ -70,10 +76,24 @@ function SearchScheduleAppointment() {
                 </div>
 
                 {/* Conditionally render student tiles if showTiles is true */}
-                {showTiles && searchText !== "" ? (
-                    <div>
-                        {
-                            FetchData.map((student, index) => (
+                {showTiles ? (
+                    filteredData.length > 0 ? (
+                        <div>
+                            <div className="Student-Tile-Parent-Div">
+                                <div onClick={() => Navigator("/saintGeoegeSchool")} className="student-tile">
+                                    <div className="student-avatar">
+                                        <span className="avatar-initials FaUsersIcon">
+                                            <FaUsers />
+                                        </span>
+                                    </div>
+                                    <div className="student-info">
+                                        <h3>Saint George Primary School</h3>
+                                        <p>22 students</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            {filteredData.map((student, index) => (
                                 <div key={index} className="Student-Tile-Parent-Div">
                                     <div onClick={() => Navigator("/scheduleAppointmentUI")} className="student-tile">
                                         <div className="student-avatar">
@@ -87,9 +107,11 @@ function SearchScheduleAppointment() {
                                         </div>
                                     </div>
                                 </div>
-                            ))
-                        }
-                    </div>
+                            ))}
+                        </div>
+                    ) : (
+                        <p>No students found</p>
+                    )
                 ) : (
                     <div className="placeholder-container">
                         <div className="placeholder-icon">

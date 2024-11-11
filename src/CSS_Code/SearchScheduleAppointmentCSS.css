@@ -92,6 +92,13 @@
     margin-right: 10px;
 }
 
+.FaUsersIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
 .student-info h3 {
     margin: 0;
     font-size: 1.1rem;
