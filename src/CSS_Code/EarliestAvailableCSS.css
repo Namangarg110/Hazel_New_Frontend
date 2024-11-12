@@ -80,12 +80,10 @@
 }
 
 .LeftSide-ContentBox{
-    padding: 1%;
     width: 32%;
-    background-color: white;
-    /* margin-top: 2%; */
-    /* margin-left: 2%; */
+    padding: 1%;
     border-radius: 10px;
+    background-color: white;
 }
 
 .UserDetail-Image-Text{
@@ -281,7 +279,10 @@
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
   color: #333;
-  width: 30%;
+}
+
+.SelectAppointment-InputTag .date-input{
+    width: 45%;
 }
 
 /* Input Hover and Focus Styles */
@@ -300,8 +301,9 @@
     padding: 1%;
 }
 
-.SelectAppointment-InputTag h1 {
-    font-size: 23.5px;
+.SelectAppointment-InputTag .SelectAppointmentText {
+    font-size: 23px;
+    width: 100%;
 }
 
 .WithOutBackground-RightSideBox{
@@ -423,4 +425,92 @@
     background-color: white;
     border: 1px solid #dadada;
     margin-left: 5%;
+}
+
+
+
+
+
+/* Popup CSS Code */
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.info-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: #555;
+}
+
+.popup-One {
+  position: absolute;
+  top: 430px;
+  right: 40px;
+  width: 480px;
+  height: 400px;
+  background-color: #1e293b;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #eaeaea;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.popup-Two {
+  position: absolute;
+  top: 430px;
+  right: 40px;
+  width: 480px;
+  height: 400px;
+  background-color: #1e293b;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #eaeaea;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.popup-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  width: 48%;
+}
+
+.section-title-Matching {
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.section-title-Optimization{
+    color: yellow;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.section p {
+  font-size: 15px;
+  line-height: 1.2;
+  margin: 4px 0;
+}
+
+.section p span {
+  color: #999;
+  font-weight: normal;
+}
+
+.section p strong {
+  color: #58677d;
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import { FiArrowLeft } from "react-icons/fi";
 import "../CSS_Code/EarliestAvailableCSS.css";
 import { useNavigate } from "react-router-dom";
@@ -6,7 +5,7 @@ import photoOne from "../Assests/PhotoOne.jpg";
 import { IoIosInformationCircleOutline } from "react-icons/io";
 import { CiShare1 } from "react-icons/ci";
 import { FaCalendarAlt } from "react-icons/fa";
-
+import React, { useState, useRef, useEffect } from "react";
 
 function EarliestAvailable() {
   const Navigator = useNavigate();
@@ -14,6 +13,28 @@ function EarliestAvailable() {
   function OneStepBackHandler() {
     Navigator(-1);
   }
+
+  // PopUp Side Code
+  const [isPopupVisible, setIsPopupVisible] = useState(false);
+  const popupRef = useRef(null);
+
+  // Toggle pop-up visibility
+  const handleIconClick = () => {
+    setIsPopupVisible(!isPopupVisible);
+  };
+
+  // Hide pop-up when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (popupRef.current && !popupRef.current.contains(event.target)) {
+        setIsPopupVisible(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div>
@@ -158,9 +179,32 @@ function EarliestAvailable() {
                 </div>
               </div>
               <div className="Two-Icons">
-                <div>
+                <div onClick={handleIconClick} className="info-icon">
                   <IoIosInformationCircleOutline className="Icons" />
                 </div>
+                {isPopupVisible && (
+                  <div className="popup-One" ref={popupRef}>
+                    <div className="popup-content">
+                      <div className="section">
+                        <h3 className="section-title-Matching">Matching criteria</h3> <hr/>
+                        <p><strong>Availability:</strong> <br/> Morning</p> <hr/>
+                        <p><strong>Location:</strong> <br/> Onsite</p> <hr/>
+                        <p><strong>School hours of operations:</strong> <br/> 8:30-16:30</p> <hr/>
+                        <p><strong>Languages:</strong> <br/> English</p> <hr/>
+                        <p><strong>Therapist gender:</strong> <br/> Male</p> <hr/>
+                        <p><strong>State:</strong> <br/> CA</p> <hr/>
+                      </div>
+                      <div className="section">
+                        <h3 className="section-title-Optimization">Optimization rules</h3> <hr/>
+                        <p><strong>Therapist utilization rate:</strong> <br/> 78% (Overloaded)</p> <hr/>
+                        <p><strong>Average time between visits:</strong> <br/> 22 min ↑</p> <hr/>
+                        <p><strong>Multi-state license:</strong> <br/> Yes (CA, GA, TX)</p> <hr/>
+                        <p><strong>Multilingual:</strong> <br/> Yes (English, Spanish)</p> <hr/>
+                        <p><strong>Hybrid:</strong> <br/> No (Intake)</p> <hr/>
+                      </div>
+                    </div>
+                  </div>
+                )}
                 <div>
                   <CiShare1 className="Icons" />
                 </div>
@@ -176,9 +220,32 @@ function EarliestAvailable() {
                 </div>
               </div>
               <div className="Two-Icons">
-                <div>
+                <div onClick={handleIconClick} className="info-icon">
                   <IoIosInformationCircleOutline className="Icons" />
                 </div>
+                {isPopupVisible && (
+                  <div className="popup-Two" ref={popupRef}>
+                    <div className="popup-content">
+                      <div className="section">
+                        <h3 className="section-title-Matching">Matching criteria</h3> <hr/>
+                        <p><strong>Availability:</strong> <br/> Morning</p> <hr/>
+                        <p><strong>Location:</strong> <br/> Onsite</p> <hr/>
+                        <p><strong>School hours of operations:</strong> <br/> 8:30-16:30</p> <hr/>
+                        <p><strong>Languages:</strong> <br/> English</p> <hr/>
+                        <p><strong>Therapist gender:</strong> <br/> Male</p> <hr/>
+                        <p><strong>State:</strong> <br/> CA</p> <hr/>
+                      </div>
+                      <div className="section">
+                        <h3 className="section-title-Optimization">Optimization rules</h3> <hr/>
+                        <p><strong>Therapist utilization rate:</strong> <br/> 78% (Overloaded)</p> <hr/>
+                        <p><strong>Average time between visits:</strong> <br/> 22 min ↑</p> <hr/>
+                        <p><strong>Multi-state license:</strong> <br/> Yes (CA, GA, TX)</p> <hr/>
+                        <p><strong>Multilingual:</strong> <br/> Yes (English, Spanish)</p> <hr/>
+                        <p><strong>Hybrid:</strong> <br/> Yes (Intake)</p> <hr/>
+                      </div>
+                    </div>
+                  </div>
+                )}
                 <div>
                   <CiShare1 className="Icons" />
                 </div>
@@ -190,7 +257,7 @@ function EarliestAvailable() {
 
           <div className="ThirdBoxRightSide">
             <div className="SelectAppointment-InputTag">
-              <h1>Select appointment</h1>
+              <h1 className="SelectAppointmentText">Select appointment</h1>
               <input type="date" id="date" className="date-input" />
             </div>
 
