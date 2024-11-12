@@ -215,7 +215,12 @@ function EarliestAvailable() {
                     <FaCalendarAlt aria-label="calendar" />
                   </div>
                   <div className="time-text">2:45 pm</div>
-                  <div className="radio-button selected"></div>
+                  <input
+                    type="radio"
+                    className="radio-button"
+                    name="radiobtn"
+                  />
+                  {/* <div className="radio-button selected"></div> */}
                 </div>
 
                 <div className="date-header">Thu, October 11, 2024</div>
@@ -225,7 +230,12 @@ function EarliestAvailable() {
                     <FaCalendarAlt aria-label="calendar" />
                   </div>
                   <div className="time-text">1:15 pm</div>
-                  <div className="radio-button"></div>
+                  <input
+                    type="radio"
+                    className="radio-button"
+                    name="radiobtn"
+                  />
+                  {/* <div className="radio-button"></div> */}
                 </div>
 
                 <div className="time-option">
@@ -233,7 +243,12 @@ function EarliestAvailable() {
                     <FaCalendarAlt aria-label="calendar" />
                   </div>
                   <div className="time-text">4:00 pm</div>
-                  <div className="radio-button"></div>
+                  <input
+                    type="radio"
+                    className="radio-button"
+                    name="radiobtn"
+                  />
+                  {/* <div className="radio-button"></div> */}
                 </div>
               </div>
             </div>
