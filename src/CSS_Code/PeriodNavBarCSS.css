@@ -1,0 +1,50 @@
+
+
+.LeftLogo-Text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ProviderNavBarDiv{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PeriodDatetext-TimeText{
+    line-height: 0.5;
+}
+
+.PeriodDatetext-TimeText p {
+    color: grey;
+    font-size: 17.5px;
+    font-weight: 400;
+}
+
+.book-OneSixty-appointment-Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 2%;
+  width: 280px;
+  background-color: #8a4af3;
+  color: whitesmoke;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 22px;
+}
+
+.BookOneSixtyText-BookOneSixtyButton{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.BookOneSixtyText-BookOneSixtyButton span {
+    color: grey;
+    font-size: 17.5px;
+    font-weight: 400;
+}
