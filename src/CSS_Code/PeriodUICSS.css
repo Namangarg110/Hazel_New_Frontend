@@ -1,0 +1,220 @@
+.ContainerData-ProviderUI{
+  background-color: #f1f5f9;
+  height: 1250px;
+  width: 100vw;
+}
+
+.ThreeBoxesLineByLine-xAxis{
+  gap: 5px;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SaintGeorge-ToggleBox{
+  background-color: white;
+  width: 430px;
+  height: 1000px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.IconAvatar-Text{
+  display: flex;
+  align-items: center;
+}
+
+.Avtar-FaUsericon{
+   background-color: #e6e2fd;
+  color: #6554e3;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.SaintGeorge-Text-h3-pTag h3 {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 500;
+  color: #333;
+}
+
+.SaintGeorge-Text-h3-pTag p {
+  margin: 0;
+  color: #666;
+  font-size: 16.5px;
+}
+
+/* .TwoBoxes-ContentInScheduleAppointments{
+  display: flex;
+  align-items:first baseline;
+  gap: 25px;
+  padding: 10px;
+}
+
+.Student-Tile-Parent-Div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.Provider-SaintGeorage-tile{
+  display: flex;
+  cursor: pointer;
+  background-color: white;
+  width: 100%;
+  gap: 8px;
+  padding: 38px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.SaintGeorge-avatar {
+  background-color: #e6e2fd;
+  color: #6554e3;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.SaintGeorge-info{
+  line-height: 0.9.5;
+}
+
+.SaintGeorge-info h3 {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 500;
+  color: #333;
+}
+
+.SaintGeorge-info p {
+  margin: 0;
+  color: #666;
+  font-size: 16.5px;
+} */
+
+
+/* Toggle Button All, By Student, By Provider Side */
+
+.toggle-container {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    background-color: #f0f4f8;
+    padding: 2px 12px; 
+    border-radius: 8px;
+    width: fit-content;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #6c757d;
+    border-radius: 5px;
+    padding: 12px 24px; 
+    background-color: transparent;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.toggle-button.active {
+    color: #007bff;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+.toggle-button:not(.active):hover {
+    color: #0056b3;
+}
+
+
+
+/* InputTag Search Bar CSS Code */
+.search-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #f0f4f8;
+    padding: 0.5px 10px;
+    border-radius: 24px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-icon {
+    color: #6c757d;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #6c757d;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-input::placeholder {
+    color: #6c757d;
+}
+
+
+/* Students Details Data */
+
+.Students-Tile-Parent-Div {
+    display: flex;
+}
+
+.students-tile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 7px 0;
+}
+
+.student-avatar {
+    background-color: #e6e2fd;
+    color: #6554e3;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.student-info h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.student-info p {
+    margin: 0;
+    color: #666;
+}

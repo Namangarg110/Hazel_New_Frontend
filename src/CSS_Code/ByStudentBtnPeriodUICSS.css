@@ -1,0 +1,81 @@
+.ImageText-NameAndYear{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ImageText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(234, 121, 234);
+}
+
+.Ptag-PTag{
+    line-height: 0.4;
+}
+
+.TwoContentBoxes-SelectByStudent{
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* First Box */
+.FirstBox{
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 550px;
+    width: 430px;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+
+.secodnBox-SelectByStudent{
+    background-color: white;
+    height: 550px;
+    width: 420px;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+
+/* Second Box  After Schedule Button Click */
+/* .AfterScheduleButtonClick{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5%;
+} */
+
+
+/* Third Box */
+.Calendar-texts{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.CalendarIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 25px;
+    width: 50px;
+    border-radius: 100px;
+    color: #6554e3;
+    background-color: #dad5fe;
+}
+
+.TwoPTags{
+    line-height: 0.5;
+}
+
+.TwoPTags p {
+    font-size: 19px;
+}

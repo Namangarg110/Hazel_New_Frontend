@@ -1,0 +1,27 @@
+.AllSideToggleBtnPeriodUI-SecondBox{
+    padding: 1%;
+    width: 830px;
+    height: 900px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Single-PersonImage-NameTimeText{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.PersonImage{
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Name-Address-time-Text{
+    line-height: 0;
+    font-size: 18px;
+    color: #1e293b;
+}
