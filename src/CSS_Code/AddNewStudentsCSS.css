@@ -1,20 +1,15 @@
 .AddNewStudent-ParentDiv{
-    width: 100%;
-    height: auto;
-    background-color: #f1f5f9;
+  width: 100%;
+  height: auto;
+  background-color: #f1f5f9;
 }
 
-.LeftArrowIcon-ScheduleText {
-  gap: 60px;
+.LeftArrowAndNewStudentText{
   display: flex;
   align-items: center;
+  gap: 50px;
   padding: 1%;
   background-color: white;
-}
-
-.LeftLogo-Text {
-  display: flex;
-  align-items: center;
 }
 
 .LeftArrowIcon {
@@ -28,10 +23,10 @@
 }
 
 .ThreeSideBySideBoxContent{
-    display: flex;
-    padding: 1%;
-    gap: 30px;
-    /* justify-content: space-evenly; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  gap: 30px;
 }
 
 
@@ -140,10 +135,8 @@
 .SecondBoxMiddleBox {
   padding: 1%;
   width: 32%;
-  height: 730px;
+  height: 750px;
   background-color: white;
-  /* margin-top: 2%; */
-  /* margin-left: 2%; */
   border-radius: 10px;
 }
 
@@ -218,14 +211,14 @@
   background-color: #f5f7fa;
   border-radius: 12px;
   padding: 2px;
-  width: 80%;
+  width: 100%;
   border: 1px solid #d1d5db;
   margin-top: 2%;
 }
 
 /* Default button style */
 .toggle-btn {
-  padding: 10px 20px;
+  width: 100%;
   border: none;
   background: transparent;
   color: #6b7280;
@@ -233,8 +226,6 @@
   cursor: pointer;
   border-radius: 8px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  flex: 1;
-  width: max-content;
 }
 
 /* Active (selected) button style */
@@ -269,7 +260,8 @@
 .TwoInputTag-DatePicker {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-evenly;
+  /* gap: 10px; */
   margin-top: 2%;
 }
 

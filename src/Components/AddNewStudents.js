@@ -33,7 +33,7 @@ function AddNewStudents(){
     return (
         <div className="AddNewStudent-ParentDiv">
             <div>
-                <div className="LeftArrowIcon-ScheduleText LeftLogo-Text">
+                <div className="LeftArrowAndNewStudentText">
                     <div onClick={OneStepBackHandler} className="LeftArrowIcon">
                         <FiArrowLeft size={38} style={{ cursor: 'pointer' }} />
                     </div>
@@ -364,7 +364,6 @@ function AddNewStudents(){
                             )
                         }
                     </div>
-
 
                 </div>
             </div>

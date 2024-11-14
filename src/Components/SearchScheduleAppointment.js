@@ -60,12 +60,12 @@ function SearchScheduleAppointment() {
                     </div>
                 </div>
 
-                <div className="search-container">
+                <div className="search-container-Text">
                     <FaSearch className="search-icon" />
                     <input
                         type="text"
                         placeholder="Search school or student by name..."
-                        className="search-input"
+                        className="search-input-text"
                         value={searchText}
                         onClick={handleInputClick}
                         onChange={(e) => setSearchText(e.target.value)}
@@ -78,7 +78,7 @@ function SearchScheduleAppointment() {
                 {/* Conditionally render student tiles if showTiles is true */}
                 {showTiles ? (
                     filteredData.length > 0 ? (
-                        <div>
+                        <div className="SearchBar-StudentTiles">
                             <div className="Student-Tile-Parent-Div">
                                 <div onClick={() => Navigator("/saintGeoegeSchool")} className="student-tile">
                                     <div className="student-avatar">

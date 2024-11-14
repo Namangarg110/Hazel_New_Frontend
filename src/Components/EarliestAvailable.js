@@ -151,9 +151,32 @@ function EarliestAvailable() {
               <p>1 therapist</p>
             </div>
 
-            <div className="BestMatch-Icon">
+            <div onClick={handleIconClick} className="BestMatch-Icon">
               <p>Best Match</p>
               <IoIosInformationCircleOutline />
+              {isPopupVisible && (
+                  <div className="popup-One" ref={popupRef}>
+                    <div className="popup-content">
+                      <div className="section">
+                        <h3 className="section-title-Matching">Matching criteria</h3> <hr/>
+                        <p><strong>Availability:</strong> <br/> Morning</p> <hr/>
+                        <p><strong>Location:</strong> <br/> Onsite</p> <hr/>
+                        <p><strong>School hours of operations:</strong> <br/> 8:30-16:30</p> <hr/>
+                        <p><strong>Languages:</strong> <br/> English</p> <hr/>
+                        <p><strong>Therapist gender:</strong> <br/> Male</p> <hr/>
+                        <p><strong>State:</strong> <br/> CA</p> <hr/>
+                      </div>
+                      <div className="section">
+                        <h3 className="section-title-Optimization">Optimization rules</h3> <hr/>
+                        <p><strong>Therapist utilization rate:</strong> <br/> 78% (Overloaded)</p> <hr/>
+                        <p><strong>Average time between visits:</strong> <br/> 22 min ↑</p> <hr/>
+                        <p><strong>Multi-state license:</strong> <br/> Yes (CA, GA, TX)</p> <hr/>
+                        <p><strong>Multilingual:</strong> <br/> Yes (English, Spanish)</p> <hr/>
+                        <p><strong>Hybrid:</strong> <br/> No (Intake)</p> <hr/>
+                      </div>
+                    </div>
+                  </div>
+                )}
             </div>
 
             <div className="MiddleBox-Perpule-Box">

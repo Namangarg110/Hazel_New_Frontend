@@ -34,7 +34,7 @@ function ScheduleAppointmentUI(){
     return (
         <div className="ScheduleAppointmentTopParentDiv">
             <div>
-                <div className="LeftArrowIcon-ScheduleText LeftLogo-Text">
+                <div className="LeftArrowIcon-ScheduleAppointment">
                     <div onClick={OneStepBackHandler} className="LeftArrowIcon">
                         <FiArrowLeft size={38} style={{ cursor: 'pointer' }} />
                     </div>

@@ -165,7 +165,7 @@
     margin-right: 8px;
 }
 
-.search-input {
+.search-input-text {
     border: none;
     outline: none;
     background-color: transparent;
@@ -174,7 +174,7 @@
     width: 100%;
 }
 
-.search-input::placeholder {
+.search-input-text::placeholder {
     color: #6c757d;
 }
 

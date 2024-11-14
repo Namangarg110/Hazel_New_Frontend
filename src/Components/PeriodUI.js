@@ -103,7 +103,7 @@ function PeriodUI (){
                             <div>
                                 <div className="search-container">
                                     <span className="search-icon"><IoSearch /></span>
-                                    <input type="text" placeholder="Search..." className="search-input" />
+                                    <input type="text" placeholder="Search..." className="search-input-text" />
                                 </div>
 
                                 {FetchData.map((student, index) => (
